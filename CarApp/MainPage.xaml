@@ -7,7 +7,31 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FFB4DEFB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="trucksButton" 
+                Content="Trucks" 
+                Width="124" 
+                Height="64" 
+                FontSize="30" 
+                HorizontalAlignment="Left"
+                Margin="430,170,0,0" 
+                VerticalAlignment="Top" 
+                RenderTransformOrigin="0.291,1.42"
+                Click="trucksButton_Click" Background="#FF938EFB"
+                />
+        <Button x:Name="carsButton"
+                Click="carsButton_Click"
+                Content="Cars" 
+                HorizontalAlignment="Left" 
+                Margin="648,170,0,0" VerticalAlignment="Top" Height="64" Width="124" FontSize="30" Background="#FF938EFB" FocusVisualPrimaryBrush="Black"/>
+        <TextBlock x:Name="truckstextBlock" TextAlignment="Center" FontSize="30" HorizontalAlignment="Left" Margin="480,299,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="carstextBlock" TextAlignment="Center" FontSize="30" HorizontalAlignment="Left" Margin="701,299,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
