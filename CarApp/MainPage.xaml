@@ -29,7 +29,7 @@
                 Click="carsButton_Click"
                 Content="Cars" 
                 HorizontalAlignment="Left" 
-                Margin="648,170,0,0" VerticalAlignment="Top" Height="64" Width="124" FontSize="30" Background="#FF938EFB" FocusVisualPrimaryBrush="Black"/>
+                Margin="648,170,0,0" VerticalAlignment="Top" Height="64" Width="124" FontSize="30" Background="#FF938EFB"/>
         <TextBlock x:Name="truckstextBlock" TextAlignment="Center" FontSize="30" HorizontalAlignment="Left" Margin="480,299,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
         <TextBlock x:Name="carstextBlock" TextAlignment="Center" FontSize="30" HorizontalAlignment="Left" Margin="701,299,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
 

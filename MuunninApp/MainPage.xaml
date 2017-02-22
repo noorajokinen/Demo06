@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="MuunninApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MuunninApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="textRaha" HorizontalAlignment="Left" Margin="426,317,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="39" Width="110" FontSize="18"/>
+        <Button x:Name="buttonMarkka" Content="Markoista euroiksi" HorizontalAlignment="Left" Margin="567,362,0,0" VerticalAlignment="Top" Click="buttonMarkka_Click" Height="40
+                " Width="150" Background="#B283DF53" FontSize="16"/>
+        <TextBlock x:Name="textMuunnos" HorizontalAlignment="Left" Margin="725,317,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="39" Width="242"/>
+        <Button x:Name="buttonEuro" Content="Euroista markoiksi" HorizontalAlignment="Left" Height="40" Margin="567,272,0,0" VerticalAlignment="Top" Width="150" Click="buttonEuro_Click" Background="#B27FCE56" FontSize="16"/>
+
+    </Grid>
+</Page>
